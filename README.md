@@ -1,53 +1,140 @@
-# ReliefHub Web Application
 
-Welcome to ReliefHub, a comprehensive web application designed to empower rescue agencies and facilitate coordination during both natural calamities and man-made emergencies.
+# 🌍 Relief Hub – Real-Time Emergency Coordination Platform
 
-## Table of Contents
+**Relief Hub** is a full-stack web application designed to streamline coordination among rescue agencies during natural calamities and man-made emergencies. It enables real-time calamity tracking, resource sharing, agency collaboration, and emergency alerts — all from a responsive and intuitive interface.
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contact](#contact)
+---
 
-## Introduction
+## 🚀 Live Demo
 
-ReliefHub is a platform that aims to connect and coordinate rescue agencies efficiently during crisis situations. With a focus on real-time updates, access to essential resources, and a network of registered rescue agencies, ReliefHub is dedicated to providing assistance, hope, and support when communities need it the most.
+🌐 **Frontend:** [https://reliefhub-frontend.vercel.app/](https://reliefhub-frontend.vercel.app/)  
+🔧 **Backend API:** [https://reliefhub-backend.onrender.com](https://reliefhub-backend.onrender.com)
 
-## Features
+---
 
-### 1. Calamity Updates
-- Get real-time updates on ongoing calamities, including type, location, and severity.
-- Stay informed with comprehensive disaster information.
+## 🔍 Key Features
 
-### 2. Resources
-- Access a diverse range of essential resources, from medical equipment to transportation.
-- Ensure rescue agencies have the necessary tools during critical moments.
+### 🌀 Calamities
+- Real-time updates on ongoing disasters
+- View disaster type, severity, and exact location on map
 
-### 3. Registered Agencies
-- Explore a network of registered rescue agencies, each with unique expertise.
-- Collaborate, coordinate, and make a difference when communities are in need.
+### 🧰 Resources
+- Catalog of essential resources (medical kits, transport vehicles, etc.)
+- Used to support and manage rescue efforts efficiently
 
-### 4. User Profile
-- Maintain a personalized profile to streamline your experience on ReliefHub.
-- Update contact information and preferences for a tailored experience.
+### 🏢 Agencies
+- Directory of registered rescue agencies
+- View agency details and collaborate on operations
 
-### 5. Privacy Policy
-- Ensure data security and privacy with our transparent and user-friendly privacy policy.
+### 📢 Alerts
+- Broadcast alerts to all or selected agencies
+- Improve response time during high-risk situations
 
-## Technologies Used
+### 🙋 My Profile
+- Each agency can manage its profile and contact information
+- View assigned alerts and calamity history
 
-- Frontend: React
-- Backend: Node.js, Express
-- Database: MongoDB
-- Other technologies: Redux (for state management), Axios (for API calls), etc.
+---
 
-#### For detailed instructions on setting up the frontend and backend, please refer to the README files in their respective folders:
-- [Frontend README](https://github.com/AdityaRajGautam/HackJNU3.0-ReliefHub/blob/main/ReliefHub-frontend/README.md)
-- [Backend README](https://github.com/AdityaRajGautam/HackJNU3.0-ReliefHub/blob/main/ReliefHub-backend/README.md)
+## 🛠️ Tech Stack
 
-## Contact
+| Category       | Tech Used                         |
+|----------------|-----------------------------------|
+| Frontend       | React.js, Tailwind CSS, Bootstrap |
+| Backend        | Node.js, Express.js               |
+| Database       | MongoDB                           |
+| Maps & Geo     | Google Maps API                   |
+| Deployment     | Vercel (Frontend),Render(Backend) |
+| Version Control| Git + GitHub                      |
 
-For inquiries and support, please contact us at [404arg@gmail.com](mailto:404arg@gmail.com).
+---
+
+## 📸 Screenshots
+
+> --
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/NaiduBagana/reliefhub.git
+cd reliefhub
+```
+
+---
+
+### 2. Install Dependencies
+
+#### Backend
+
+```bash
+cd backend
+npm install
+```
+
+#### Frontend
+
+```bash
+cd frontend
+npm install
+```
+
+---
+
+### 3. Environment Variables
+
+Create a `.env` file in both the `backend` and `frontend` directories.
+
+#### Example `.env` for Backend:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+```
+
+*(Add any other required keys based on your implementation)*
+
+---
+
+### 4. Run the App
+
+#### Run Backend:
+
+```bash
+cd backend
+npm start
+```
+
+#### Run Frontend:
+
+```bash
+cd frontend
+npm start
+```
+
+Visit `http://localhost:3000` to view the app.
+
+---
+
+## 🧠 Inspiration
+
+Relief Hub was created to offer a real-time emergency response coordination system that empowers agencies and responders with centralized disaster information, alerts, and resource management. It bridges the gap between agencies and communities during crises.
+
+---
+
+## 🙌 Feedback & Contributions
+
+Have ideas or suggestions?  
+Feel free to [open an issue](https://github.com/NaiduBagana/reliefhub/issues) or submit a pull request.  
+Let’s collaborate to improve disaster response together. 💪
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
